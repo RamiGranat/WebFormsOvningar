@@ -19,7 +19,7 @@ namespace Calculator
         {
             if (double.TryParse(Input1.Text, out tal1) && double.TryParse(Input2.Text, out tal2))
             {
-                double result = tal1 / tal2;
+                double result = tal1 / tal2; 
                 ResultBox.Text = result.ToString();
             }
             else
